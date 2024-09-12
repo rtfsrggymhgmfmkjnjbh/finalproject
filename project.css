@@ -149,6 +149,24 @@ ul li:hover{
     top:400px;
 
 }
- .carousel-inner{
-    margin-left: 25%;
- } 
+.carousel-caption-container{
+    width: 350px;
+}
+.carousel-item{
+    img{
+        margin-left: 20rem;
+    }
+}
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 35% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+@media  screen and (max-width:325) {
+    
+}
